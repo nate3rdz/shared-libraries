@@ -1,0 +1,9 @@
+{
+	"user": "nate3rdz",
+	"repo": "shared-libraries",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"openmultiplayer/omp-stdlib"
+	]
+}
