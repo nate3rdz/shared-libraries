@@ -50,7 +50,7 @@ stock Dialog_Close(playerid)
 	return ShowPlayerDialog(playerid, -1, DIALOG_STYLE_MSGBOX, " ", " ", " ", "");
 }
 
-stock Dialog_Open(playerid, const function[], style, const caption[], const info[], const button1[], const button2[], {Float,_}:...)
+stock Dialog_Open(playerid, const function[], style, caption[], info[], button1[], button2[], {Float,_}:...)
 {
 	if (!strlen(info))
 	{
